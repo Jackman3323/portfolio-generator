@@ -1,27 +1,21 @@
 ---
-name: Dominic Holifield
+name: Template Portfolio
 bio: >
-  I'm a mechanical engineer at Subaru of Indiana, working on quality control systems for mass-produced vehicles. I spent 8 years in competitive robotics, winning the 2024 VEXU World Championship, and studied mechanical engineering at Purdue with a minor in computer science.
-portrait: me-418.jpg
-gallery: photography
+  Use this biography section to give a short description about yourself. This will be the first thing people read!
+portrait: gallery/coral.jpg
+gallery: gallery
 skills:
-  - C++
-  - Python
-  - Robotics
-  - SolidWorks
-  - NX
-  - KiCad
-  - PLC
-  - 3D Printing
+  - List
+  - Your
+  - Skills
+  - Here
 links:
   - label: Email
-    url: mailto:dholifield59@gmail.com
+    url: mailto:email
   - label: GitHub
-    url: https://github.com/dholifield
+    url: https://github.com/
   - label: LinkedIn
-    url: https://linkedin.com/in/dominicholifield
+    url: https://linkedin.com/
   - label: YouTube
-    url: https://www.youtube.com/@DominicHolifield
-  - label: Spotify
-    url: https://open.spotify.com/user/dholifield59?si=a25f62dc87a74297
+    url: https://www.youtube.com/
 ---
