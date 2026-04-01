@@ -2,6 +2,8 @@
 
 A minimal static site generator for personal portfolio sites. Write your content in Markdown, run one script, and get a clean site ready for GitHub Pages.
 
+*This script is almost entirely vibe coded under my guidance. Due to its simplicity the risks are low, but please use caution.
+
 ## Quick start
 
 1. Fork or clone this repo
