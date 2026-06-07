@@ -1,21 +1,18 @@
 ---
-name: Template Portfolio
+name: Jack Hughes
 bio: >
-  Use this biography section to give a short description about yourself. This will be the first thing people read!
-portrait: gallery/coral.jpg
-gallery: gallery
-skills:
-  - List
-  - Your
-  - Skills
-  - Here
+  Looking to apply my extensive design experience to cutting-edge systems.
+portrait: portrait.jpg
+background: "#f7f7f2"
+accent: "#3f9f9f"
+skills: []
 links:
   - label: Email
-    url: mailto:email
+    url: mailto:hughe307@purdue.edu
   - label: GitHub
-    url: https://github.com/
+    url: https://github.com/Jackman3323
   - label: LinkedIn
-    url: https://linkedin.com/
-  - label: YouTube
-    url: https://www.youtube.com/
+    url: https://www.linkedin.com/in/jack-hughes-b80491291/
+gallery:
+sections: [projects, work]
 ---

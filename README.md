@@ -109,6 +109,8 @@ Edit `style.css` to change the look. The layout is a centered single column with
 
 The included GitHub Actions workflow runs `generate_site.py` on every push to `main` and deploys to GitHub Pages. Enable GitHub Pages in your repo settings with the source set to **GitHub Actions**.
 
+For a custom domain, keep a root `CNAME` file with your domain name, then set the same custom domain in GitHub Pages settings and point DNS at GitHub Pages from your registrar or Cloudflare.
+
 ## File structure
 
 ```

@@ -36,7 +36,8 @@ def rewrite_project_paths(html):
     return re.sub(r'(src|href)="([^"]*)"', rewrite, html)
 
 
-def page_head(title, css_path, bg, accent):
+def page_head(title, css_path, bg, accent, icon_path=None):
+    icon_link = f'<link rel="icon" href="{icon_path}">' if icon_path else ""
     return f"""\
 <!DOCTYPE html>
 <html lang="en">
@@ -44,6 +45,7 @@ def page_head(title, css_path, bg, accent):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title}</title>
 <link rel="stylesheet" href="{css_path}">
+{icon_link}
 <style>:root{{--bg:{bg};--accent:{accent}}}</style>"""
 
 
@@ -264,7 +266,7 @@ for folder_name, items in sections.items():
 sections_html = "\n<hr>\n".join(sections_html_parts)
 
 index_html = INDEX_TEMPLATE.format(
-    head=page_head(name, "style.css", bg, accent),
+    head=page_head(name, "style.css", bg, accent, "content/portrait.jpg" if portrait else None),
     footer=page_footer(name, year),
     name=name,
     bio=bio,
@@ -344,7 +346,7 @@ if has_photography:
     )
 
     photography_html = PHOTOGRAPHY_TEMPLATE.format(
-        head=page_head(f"{gallery_title} - {name}", "../style.css", bg, accent),
+        head=page_head(f"{gallery_title} - {name}", "../style.css", bg, accent, "../content/portrait.jpg" if portrait else None),
         footer=page_footer(name, year),
         name=name,
         gallery_title=gallery_title,
@@ -380,7 +382,7 @@ if has_resume:
 </body>"""
 
     resume_html = RESUME_TEMPLATE.format(
-        head=page_head(f"Resume - {name}", "../style.css", bg, accent),
+        head=page_head(f"Resume - {name}", "../style.css", bg, accent, "../content/portrait.jpg" if portrait else None),
         footer=page_footer(name, year),
         name=name,
         resume_pdf=resume_pdf,
@@ -423,7 +425,7 @@ for folder_name, items in sections.items():
         body = markdown.markdown(project.content, extensions=["fenced_code"])
         body = rewrite_project_paths(body)
         html = PROJECT_TEMPLATE.format(
-            head=page_head(f"{project['title']} - {name}", "../../style.css", bg, accent),
+            head=page_head(f"{project['title']} - {name}", "../../style.css", bg, accent, "../../content/portrait.jpg" if portrait else None),
             footer=page_footer(name, year),
             name=name,
             title=project["title"],
