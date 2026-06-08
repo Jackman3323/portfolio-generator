@@ -1,7 +1,7 @@
 ---
 title: 2025 Ladder climbing, ring scoring
 description: >
-  A tall ladder-climbing and ring-scoring robot concept with a sheet-metal frame, raised scoring geometry, and integrated CAD development.
+  A tall ladder-climbing and ring-scoring robot concept with a sheet-metal frame, and unique scoring geometry to score the high stake after climbing the ladder.
 order: 3
 thumbnail: projects/2025-ladder-climbing-ring-scoring/media/highstake.jpg
 thumbnail_alt: 2025 ladder climbing and ring scoring robot render
