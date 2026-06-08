@@ -1,7 +1,7 @@
 ---
 name: Jack Hughes
 bio: >
-  Looking to apply my extensive design experience to cutting-edge systems.
+  I'm a senior in aerospace engineering at Purdue University. With over ten years in competitive robotics experience, I have a unique amount of mechanical design, prototyping, manufacturing, programming, and testing experience. I'm looking to apply my extensive design experience to cutting-edge systems.
 portrait: portrait.jpg
 background: "#f7f7f2"
 accent: "#3f9f9f"
