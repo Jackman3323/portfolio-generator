@@ -59,7 +59,7 @@ The software subteam for this team was just me and one other teammate. I program
 ## Explanation Video
 
 <div class="cad-callout video-callout">
-  <a class="video-thumb" href="https://www.youtube.com/watch?v=ujd52gIGhfQ" target="_blank" rel="noopener noreferrer">
+  <a class="video-thumb" href="https://youtu.be/ujd52gIGhfQ?si=w7zUDQIAG7WZzvuc" target="_blank" rel="noopener noreferrer">
     <span class="play-badge" aria-hidden="true"></span>
     <img src="projects/2026-world-championship-robots/media/thumb.png" alt="YouTube explanation video thumbnail">
   </a>
@@ -67,7 +67,7 @@ The software subteam for this team was just me and one other teammate. I program
     <h3>Explanation Video</h3>
     <p>Open the full build walkthrough on YouTube.</p>
     <div class="cta-row">
-      <a href="https://www.youtube.com/watch?v=ujd52gIGhfQ" target="_blank" rel="noopener noreferrer">Watch Video</a>
+      <a href="https://youtu.be/ujd52gIGhfQ?si=w7zUDQIAG7WZzvuc" target="_blank" rel="noopener noreferrer">Watch Video</a>
     </div>
   </div>
 </div>
